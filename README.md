@@ -6,6 +6,14 @@ This project analyses a multi-table e-commerce marketplace dataset to identify c
 
 The analysis follows an end-to-end analytical workflow: understanding the source data, validating relationships and data quality, investigating customer feedback, evaluating product and category performance, analysing seller and delivery performance, and translating the findings into actionable business recommendations.
 
+## Start Here
+
+For a concise, decision-focused overview of the analysis, key findings, and business recommendations:
+
+➡️ **[View the Executive Business Summary](notebooks/07_Executive_Business_Summary.ipynb)**
+
+For the complete analytical workflow, review notebooks `01` through `07` in numerical order.
+
 ## Business Questions
 
 The project investigates questions such as:
