@@ -92,11 +92,36 @@ Decision-focused consolidation of the project's strongest findings, visualisatio
 
 ## Dataset
 
-The project uses the Brazilian Olist e-commerce dataset.
+This project uses the **Brazilian E-Commerce Public Dataset by Olist**, containing anonymised marketplace data covering orders, customers, products, sellers, payments, reviews, and delivery activity.
 
-Raw CSV files are not included directly in this repository.
+**Source:** [Brazilian E-Commerce Public Dataset by Olist on Kaggle](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)
 
-After obtaining the dataset, place the source CSV files inside:
+Raw CSV files are not included directly in this repository due to file size and to keep the repository focused on the analytical work.
 
-```text
-data/raw/
+After downloading the dataset, place the source CSV files inside:
+
+`data/raw/`
+
+The notebooks are configured to locate this folder when executed from either the project root or the `notebooks/` directory.
+
+## How to Run
+
+1. Clone or download this repository.
+
+2. Install the required Python packages:
+
+`pip install -r requirements.txt`
+
+3. Download the Olist dataset using the link above.
+
+4. Place the downloaded CSV files inside:
+
+`data/raw/`
+
+5. Start Jupyter Notebook or JupyterLab from the project directory.
+
+6. Run the notebooks in numerical order from `01` through `07`.
+
+For a concise overview of the final findings and recommendations, start with:
+
+`notebooks/07_Executive_Business_Summary.ipynb`
